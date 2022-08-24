@@ -1,3 +1,5 @@
+// task 6
+
 const validationInputRef = document.querySelector("#validation-input");
 validationInputRef.addEventListener("blur", () => {
     const valueLength = validationInputRef.value.length;
