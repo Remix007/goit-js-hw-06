@@ -14,13 +14,13 @@ console.log(`Number of categories: ${numbersOfCategories}`);
 //Завдання 2
 const itemsRef = document.querySelectorAll(".item");
 
-// console.log(itemsRef);
+
 
 for (const item of itemsRef) {
   const title = item.querySelector("h2").textContent;
-  //   console.log(title);
+ 
   const quantityItems = item.querySelectorAll("li").length;
-  //   console.log(quantityItems);
+  
   console.log(`Category:  ${title}`);
   console.log(`Elements: ${quantityItems}`);
 }
